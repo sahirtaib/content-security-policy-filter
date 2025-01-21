@@ -42,7 +42,7 @@ To apply the `ContentSecurityPolicyHeaderFilter` globally across all web applica
    ```xml
    <filter>
        <filter-name>ContentSecurityPolicyHeaderFilter</filter-name>
-       <filter-class>com.fd.server.filters.ContentSecurityPolicyHeaderFilter</filter-class>
+       <filter-class>org.joget.ContentSecurityPolicyHeaderFilter</filter-class>
        <init-param>
            <param-name>value</param-name>
            <param-value>
@@ -80,7 +80,7 @@ To use the `ContentSecurityPolicyHeaderFilter` only for Joget, follow these step
    ```xml
    <filter>
        <filter-name>ContentSecurityPolicyHeaderFilter</filter-name>
-       <filter-class>com.fd.server.filters.ContentSecurityPolicyHeaderFilter</filter-class>
+       <filter-class>org.joget.ContentSecurityPolicyHeaderFilter</filter-class>
        <init-param>
            <param-name>value</param-name>
            <param-value>
