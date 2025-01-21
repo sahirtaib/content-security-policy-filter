@@ -5,9 +5,10 @@
     <artifactId>content-security-policy-filter</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
-    <name>content-security-policy-filter</name>
+    <name>Content Security Policy Filter</name>
     <url>http://www.joget.org</url>
     <build>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
